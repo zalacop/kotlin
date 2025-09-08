@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class KotlinIntroApplication
 
 fun main(args: Array<String>) {
+    println("hello")
 	runApplication<KotlinIntroApplication>(*args)
 }
