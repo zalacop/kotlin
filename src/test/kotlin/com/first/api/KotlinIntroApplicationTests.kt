@@ -1,4 +1,4 @@
-package com.first.api.kotlin
+package com.first.api
 
 import kotlin.test.assertTrue
 import org.junit.jupiter.api.Test

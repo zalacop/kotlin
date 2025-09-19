@@ -1,12 +1,11 @@
-package com.first.api.kotlin
+package com.first.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication
-class KotlinIntroApplication
+@SpringBootApplication class KotlinIntroApplication
 
 fun main(args: Array<String>) {
     println("hello")
-	runApplication<KotlinIntroApplication>(*args)
+    runApplication<KotlinIntroApplication>(*args)
 }
